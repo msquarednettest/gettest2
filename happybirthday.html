@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	(function happybirthday(n) {
+		var lyric = "Happy Birthday to you";
+		var song = "";
+		for (var i=1; i<=4; i++) {
+			song += (i%3==0) ? lyric + ", dear "+n+"\n" : lyric+"\n"; 
+		}
+		alert(song);
+	})("me!");
+
+</script>
+</head>
+<body></body>
+</html>
